@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Opis">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="Author" content="Olaf Strzelczyk">
+    <title>
+        Lekcja_02_3
+    </title>
+
+    <LINK REL="stylesheet" TYPE="text/css" HREF="Zadanie_03.css">
+    <style>
+        body {
+            padding: 100px 50px;
+            color: #fff;
+        }
+
+        @keyframes rainbow {
+            0% {
+                background-color: #FF0000;
+            }
+
+            10% {
+                background-color: #E2571E;
+            }
+
+            20% {
+                background-color: #FF7F00;
+            }
+
+            30% {
+                background-color: #FFFF00;
+            }
+
+            40% {
+                background-color: #00FF00;
+            }
+
+            50% {
+                background-color: #96bf33;
+            }
+
+            60% {
+                background-color: #0000FF;
+            }
+
+            70% {
+                background-color: #4B0082;
+            }
+
+            80% {
+                background-color: #8B00FF;
+            }
+
+            90% {
+                background-color: #222222;
+            }
+
+            100% {
+                background-color: #FF0000;
+            }
+        }
+
+        body {
+            padding: 100px 50px;
+            color: #fff;
+            animation: rainbow 10s ease-in infinite;
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid #000000;
+            padding: 1px;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            width: 80px;
+            height: 40px;
+        }
+
+        .Div {
+            border: 10px outset lightyellow;
+            background-color: lightblue;
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="szablon">
+        <img src="kot1.jpg" alt="zdjęcie1" width="200" height="160">
+        <img src="kot2.jpg" alt="zdjecie2" width="200" height="160">
+        <img src="kot3.jpg" alt="zdjęcie3" width="200" height="160">
+        <img src="kot4.jpg" alt="zdjęcie4" width="300" height="250">
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpl.depositphotos.com%2Fstock-photos%2Fkotek.html&psig=AOvVaw22G-4PThmnfGHZk-nHTzgR&ust=1614712452408000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCO_eLmj-8CFQAAAAAdAAAAABAG"><img src="kot1.jpg"
+                alt="zdjęcie1" width="304" height="250"></a>
+        <br><br>
+
+        <a href="https://www.onet.pl/">Onet</a>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://pl.qaz.wiki/">Wikipedia</a>
+        <a href="https://www.w3schools.com/">w3schools</a>
+        <br><br>
+        <span style="color:red;font-weight:bold">czerwony</span>
+        <span style="color:rebeccapurple;font-weight:bold">tfioletowy</span>
+        <span style="color:rgb(0, 255, 149);font-weight:bold">morski </span>
+        <span style="color:rgb(68, 0, 255);font-weight:bold">niebieski</span>
+        <br><br>
+
+        <div class="kk1">tak</div>
+        <div class="kk2">tak</div>
+        <div class="kk3">tak</div>
+        <div class="kk4">tak</div>
+        <div id="blok1"><span style="color: aqua;font-weight:bold;"><a href="#">blok1</a></span></div>
+        <div id="blok2"><span style="color: brown;font-weight:bold;"><a href="#">blok2</a></span></div>
+        <div id="blok3"><span style="color: fuchsia;font-weight:bold;"><a href="#">blok3</a></span></div>
+        <div id="blok4"><span style="color: khaki;font-weight:bold;"><a href="#">blok4</a></span></div>
+        <br><br><br>
+
+        <div id="paragraf">
+            <div id="p1">
+                <p><a href="#">Tekst1</a></p>
+            </div>
+            <div id="p2">
+                <p><a href="#">Tekst2</a></p>
+            </div>
+            <div id="p3">
+                <p><a href="#">Tekst3</a></p>
+            </div>
+            <div id="p4">
+                <p><a href="#">Tekst4</a></p>
+            </div>
+        </div>
+
+        <br><br>
+        <ol>
+            <li>&nbsp;Punkt 1</li>
+            <li>&nbsp;Punkt 2
+                <ol type="a">
+                    <li>&nbsp;Punkt 2.1</li>
+                    <li>&nbsp;Punkt 2.2
+                        <ul style="list-style-type:disc;">
+                            <li>&nbsp;Bullet 1</li>
+                            <li>&nbsp;Bullet 2</li>
+                            <li>&nbsp;Bullet 3</li>
+                        </ul>
+                </ol>
+            </li>
+            <li>Punkt 3</li>
+        </ol>
+        <br><br>
+        <table>
+            <tr>
+                <td>1</td>
+                <td colspan="2">2-3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td rowspan="3">2<br>2<br>2</td>
+                <td>3</td>
+                <td colspan="3">4-5-6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td rowspan="3">8<br>8<br>8</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="7">1-2-3-4-5-6-7</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+
+
+</html>

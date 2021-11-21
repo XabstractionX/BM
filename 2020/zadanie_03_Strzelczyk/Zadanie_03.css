@@ -1,0 +1,177 @@
+#szablon
+{
+width: 720px;
+margin-left: auto;
+margin-right: auto;
+}
+#blok1
+{width: 358px;
+height: 80px;
+float:left;
+border:1px solid;
+border-color:rgb(255, 0, 0);
+text-align: center;
+color: rgb(255, 0, 0);
+padding-top: 50px ;
+}
+#blok2
+{width: 358px;
+height: 80px;
+float:right;
+border:1px solid;
+border-color:rgb(255, 0, 0);
+text-align: center ;
+color: rgb(255, 0, 0);
+padding-top: 50px ;
+}
+#blok3
+{width: 358px;
+height: 80px;
+float:left;
+border:1px solid;
+border-color:rgb(255, 0, 0);
+text-align: center;
+color: rgb(255, 0, 0);
+padding-top: 50px ;
+
+}
+#blok4
+{width: 358px;
+height: 80px;
+float:right;
+border:1px solid;
+border-color:rgb(255, 0, 0);
+text-align: center;
+color: rgb(255, 0, 0);
+padding-top: 50px;
+}
+
+#paragraf
+{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+    
+    
+#p1
+{width: 358px;
+height: 90px;
+float:right;
+border:1px solid;
+border-color:rgb(255, 0, 0);
+text-align: center;
+color: rgb(255, 0, 0);
+padding-top: 50px;
+}
+#p2
+{width: 358px;
+height: 90px;
+float:right;
+border:1px solid;
+border-color:rgb(255, 0, 0);
+text-align: center;
+color: rgb(255, 0, 0);
+padding-top: 50px
+}
+#p3
+{width: 358px;
+height: 90px;
+float:right;
+border:1px solid;
+border-color:rgb(255, 0, 0);
+text-align: center;
+color: rgb(255, 0, 0);
+padding-top: 50px;
+}
+#p4
+{width: 358px;
+height: 90px;
+float:right;
+border:1px solid;
+border-color:rgb(255, 0, 0);
+text-align: center;
+color: rgb(255, 0, 0);
+padding-top: 50px;
+}
+
+.table{border: 1px;}
+.th {bottom: 1px;}
+
+.kk1
+{ 
+    text-align: center;
+border: 5px outset green;    
+background-color: rgb(94, 0, 47); 
+}
+.kk2
+{ 
+ text-align: center;
+border: 5px outset rgb(0, 70, 128);    
+background-color: rgb(194, 148, 89); 
+}
+.kk3
+{ 
+    text-align: center;
+border: 5px outset rgb(128, 0, 100);    
+background-color: rgb(32, 194, 145); 
+}
+.kk4
+{ 
+    text-align: center;
+border: 5px outset rgb(119, 128, 0);    
+background-color: rgb(0, 255, 55); 
+}
+.Norge {
+    height: 500px;
+    width: 800px;
+}
+
+.No1 {
+    height: 640px;
+    width: 880px;
+    background-color: red;
+    z-index: -2;
+    float: left;
+    position: relative;
+    bottom: 421px;
+}
+
+.No2 {
+    background-color: white;
+    height: 160px;
+    width: 880px;
+    position: relative;
+    top: 240px;
+    z-index: -1;
+}
+
+.No3 {
+    background-color: white;
+    height: 640px;
+    width: 160px;
+    position: relative;
+    left: 240px;
+    bottom: 160px;
+    z-index: -1;
+}
+
+.No4 {
+    background-color: rgb(0,40,104);
+    height: 640px;
+    width: 80px;
+    position: relative;
+    left: 280px;
+    bottom: 1061px;
+    float: left;
+}
+
+.No5 {
+    background-color:rgb(0,40,104);
+    height: 80px;
+    width: 880px;
+    position: relative;
+    bottom: 520px;
+    
+
+}
