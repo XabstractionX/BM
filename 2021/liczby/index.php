@@ -12,7 +12,7 @@
 
     <h1> Tutaj policzysz sqn(x) </h1>
 
-    <form action="Z1.php" method="post">
+    <form action="PHP/Z1.php" method="post">
         Wybierz liczbę
         <input type="number" name="sgn" required="required">
         <input type="submit" value="Zobacz">
@@ -21,7 +21,7 @@
 
     <h1> Jaki to dzień tygodnia </h1>
 
-    <form action="Z2.php" method="post">
+    <form action="PHP/Z2.php" method="post">
         Wybierz liczbę od 1-7
         <input type="number" name="name_day" required="required">
         <input type="submit" value="Zobacz">
@@ -30,7 +30,7 @@
 
     <h1> Generowanie 6 randowowych liczb </h1>
 
-    <form action="Z3.php">
+    <form action="PHP/Z3.php">
         <input type="submit" value="Generuj">
     </form>
     <br><br>
