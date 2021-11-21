@@ -29,8 +29,6 @@
         $sql = "SELECT * FROM `linki`";
         $result = $conn->query($sql);
 
-
-        $sql = "SELECT `Strona główna`,`Galeria`,`Kontakt`,`O nas` FROM `menu`";
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
                 echo "
@@ -53,19 +51,5 @@
     <?php require "PHP/footer.php"; ?>
 
 </body>
-echo "<ul>
-    <li>
-        <a href=``> . " $row["Strona głowna"] . "</a>
-    </li>
-    <li>
-        <a href=``> . " $row["Galeria"] . "</a>
-    </li>
-    <li>
-        <a href=``> . " $row["Kontakt"] . "</a>
-    </li>
-    <li>
-        <a href=``> . " $row["O nas"] . "</a>
-    </li>
 
-</ul>";
 </html>
