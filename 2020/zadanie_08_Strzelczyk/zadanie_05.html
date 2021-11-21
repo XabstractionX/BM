@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Olaf Strzelczyk">
+	<title>zadanie 5</title>
+	<link rel="stylesheet" href="zadanie_05.css">
+</head>
+
+<body>
+	<div class="container">
+		<header>#nagłowek
+			<nav>
+				<ul>
+					<li><a href="https://pl.wikipedia.org/wiki/Bu%C5%82ka">link1</a></li>
+					<li><a
+							href="https://circleci.com/integrations/github/?utm_source=gnb&utm_medium=SEM&utm_campaign=SEM-gnb-github-Eng-eu&utm_content=SEM-gnb-github-Eng-eu-github">link2</a>
+					</li>
+					<li><a href="https://pepsi.pl/">link3</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="sec1">
+		</div>
+		<div class="sec2">
+			<img src="kk.jpg" alt="zdj1">
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna aliqua.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna aliqua.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna aliqua.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna aliqua.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna aliqua.</p>
+
+			<img src="kk.jpg" alt="zdj2">
+		</div>
+		<div class="sec2">
+			<form action="/action_page.php" method="post">
+
+				<label for="imie"> podaj imie: </label>
+				<input type="text" id="imie" name="imie">
+				<br>
+				<label for="nazwisko">nazwisko</label>
+				<input type="text" id="nazwisko" name="nazwisko" placeholder="Nazwisko..." pattern="(?=.*[a-z])">
+				<br>
+
+				<label for="wiek">wiek</label>
+				<input type="number" id="wiek" name="wiek" min="1" max="150">
+				<br><br>
+
+				<label for="pwd">hasło</label>
+				<input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+					title="min 8 znaków" required>
+				<br>
+
+				<label for="plik">Wczytaj plik:</label>
+				<input type="file" id="plik" name="plik">
+				<br><br>
+
+				<label for="vol">kolor</label>
+				<input type="color" id="vol" name="vol">
+				<br><br>
+
+				<label for="uu">wybierz język: </label>
+				<label for="jezyk1">angielski</label>
+				<input type="checkbox" id="jezyk1" name="jezyk1">
+				<label for="jezyk2">niemiecki</label>
+				<input type="checkbox" id="jezyk2" name="jezyk2">
+				<br><br>
+
+				<label for="female">Podaj plec: Kobieta:</label>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="male">Mezczyzna:</label>
+				<input type="radio" id="male" name="gender" value="male">
+				<br><br>
+
+				<label for="slider">Poziom zadowolenia:</label>
+				<input type="range" id="slider" name="slider">
+				<br><br>
+
+				<label>Kliknij aby wykonać zadanie:</label>
+				<input type="button" value="Kliknij">
+				<br><br>
+
+				<label for="opis">Opisz siebie:</label>
+				<textarea id="opis" name="opis" rows="2"></textarea>
+				<br><br>
+
+				<label for="owoce">Ulubiony owoc:</label>
+				<select name="owoce" id="owoce" multiple="multiple" size="3">
+					<option value="Jablko">Jablko</option>
+					<option value="Gruszka">Gruszka</option>
+					<option value="Truskawka">Truskawka</option>
+				</select>
+				<input type="reset" value="Czysc">
+				<input type="submit" value="wyslij">
+				<br><br>
+
+			</form>
+		</div>
+		<div class="footer">#stopka Strzelczyk Olaf grupa LAB</div>
+	</div>
+</body>
+
+</html>

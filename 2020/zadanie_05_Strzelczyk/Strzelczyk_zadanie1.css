@@ -1,0 +1,44 @@
+.kk{
+    border: 1px solid #000000;
+    padding: 1px;
+    border-collapse: collapse;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 600px;
+}
+
+th{
+    width: 80px;
+    height: 40px;
+    border: 1px solid #000000;
+    padding: 1px;
+    border-collapse: collapse;
+}
+
+td{
+    width: 80px;
+    height: 40px;
+    border: 1px solid #000000;
+    padding: 1px;
+    border-collapse: collapse;
+}
+
+.kk-kk {
+    color: #fe0000;
+}
+
+.kk-dd {
+    background-color: #78fd67;
+}
+
+.kk-gg {
+    background-color: #38fff8;
+}
+
+.kk-aa {
+    color: rgb(3, 182, 3);
+}
+
+.kk-ii {
+    background-color: #ffd700;
+}

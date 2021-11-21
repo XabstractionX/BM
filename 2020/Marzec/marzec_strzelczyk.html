@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Olaf Strzelczyk">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="CSS/akapit_1.css">
+    <link rel="stylesheet" href="CSS/akapit_2.css">
+    <link rel="stylesheet" href="CSS/akapit_3.css">
+    <link rel="stylesheet" href="CSS/animacje.css">
+    <link rel="stylesheet" href="CSS/tabela.css">
+    <link rel="stylesheet" href="CSS/coś.css">
+
+
+    <style>
+        /* body{
+    background-color: rgba(101, 103, 197, 0.534);
+    animation-name: appear;
+    animation-duration: 1s;
+}
+
+table,
+td,
+th {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    background-color: rgb(111, 73, 216);
+}
+
+td,
+th {
+    text-size-adjust: 30px;
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.intro{
+    text-align: center;
+    border: solid 1px; 
+    background-color: rgb(111, 73, 216);
+}
+
+#Lastname {
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+    background-color: yellow;
+}
+.intro, #Lastname
+
+.dd {
+    text-align: center;
+}
+h1 {
+    text-shadow: o 2px 10px hsl (210, 50%, 99%);
+}
+
+h1, p
+div p
+div > p 
+ul + p
+ul ~ table
+*
+p.myquote
+[id]
+[id=my-Address] 
+[id$=ess]
+[id|=my]
+[id^=L]
+[title~=beautiful]
+[id*=s]
+:checked
+:disabled
+:enabled
+:empty
+:focus
+p:first-child 
+p::first-letter
+p::first-line
+p:first-of-type
+h1:hover
+input{
+    width: 530px;
+    font-size: 1em;
+    font-weight: 300;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 2px solid hsl(210, 50%, 50%);
+    margin-top: 50px;
+
+}
+input ::placeholder{
+    color: hsl(210, 50%, 40%);
+}
+input:in-range
+input:out-of-range
+input:invalid
+input:valid
+p:lang(it)
+p:last-child
+p:last-of-type
+tr:nth-child(even)
+tr:nth-child(odd)
+li:nth-child(1)
+li:nth-last-child(1)
+li:nth-of-type(2)
+li:nth-last-of-type(2)
+b:only-child
+h3:only-of-type
+:root
+
+.form {
+    display: block;
+    margin-top: 0em;
+}
+.kk {
+    text-align: center;
+}
+
+#Listfriends{
+    padding-left: 800px;
+} */
+    </style>
+
+
+    <title>Marzec</title>
+
+</head>
+
+<body>
+    <!-- akapit_1 -->
+    <h1>Welcome to My Homepage</h1>
+    <div class="intro">
+        <p>My name is Donald &nbsp;&nbsp;&nbsp;<span id="Lastname">Duck.</span></p>
+
+        <p id="my-Address">I live in Duckburg</p>
+
+        <p>I have many friends:</p>
+
+    </div>
+
+    <!-- akapit_2 -->
+    <ul id="Listfriends">
+        <li>Goofy</li>
+        <li>Mickey</li>
+        <li>Daisy</li>
+        <li>Pluto</li>
+    </ul>
+
+    <!-- akapit_3 -->
+    <p class=" myquote">All my friends are great!<br>
+        But I really like Daisy!!</p>
+
+    <p lang="it" title="Hello beautiful">Ciao bella</p>
+
+    <h3>We are all animals!</h3>
+    <p>&#128518;<b>My latest discoveries have led me to believe that we are all animals:</b>&#128518;</p>
+
+    <!-- tabela -->
+    <table>
+        <tr class="kk">
+            <td><b>Name</b></td>
+            <td><b>Type of Animal</b></td>
+        </tr>
+        <tr>
+            <td>Mickey</td>
+            <td>Mouse</td>
+        </tr>
+        <tr>
+            <td>Goofey</td>
+            <td>Dog</td>
+        </tr>
+        <tr>
+            <td>Daisy</td>
+            <td>Duck</td>
+        </tr>
+        <tr>
+            <td>Pluto</td>
+            <td>Dog</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <!-- coś -->
+    <form action="/action_page.php" method="get">
+        <label for="cars">Choose a gender:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Male</option>
+            <option value="saab">Female</option>
+            <option value="fiat">Other</option>
+        </select>
+        <br><br>
+
+        <label for="fname">First name:</label>
+
+        <input type="text" id="fname" name="name" placeholder="First name:" autocomplete="off">
+        <br><br>
+
+        <!-- <label for="lname">Last name:</label> -->
+
+        <input type="text" id="fname" name="name" placeholder="First name:" autocomplete="off">
+        <br><br>
+
+        <!-- <label for="male">Male</label>
+        <input type="checkbox" id="male" name="gender" value="male">
+        <br>
+        <label for="female">Female</label>
+        <input type="checkbox" id="female" name="gender" value="female" checked="checked">
+        <br>
+        <label for="other">Other</label>
+        <input type="checkbox" id="other" name="gender" value="other">
+        <br><br> -->
+
+        <input class="hh" type="submit" value="Submit">
+    </form>
+    <br><br>
+</body>
+
+</html>

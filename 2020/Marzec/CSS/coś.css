@@ -1,0 +1,23 @@
+input{
+    width: 530px;
+    font-size: 1em;
+    font-weight: 300;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 2px solid hsl(210, 50%, 50%);
+    margin-top: 50px;
+
+}
+input ::placeholder{
+    color: hsl(210, 50%, 40%);
+}
+
+form {
+    margin-left: 35em;
+}
+
+.hh {
+    color: black;
+}
+

@@ -1,0 +1,18 @@
+.kk{
+    width: 358px;
+    height: 80px;
+    float:left;
+    border:1px solid;
+    border-color:rgb(255, 0, 0);
+    text-align: center;
+    color: rgb(255, 0, 0);
+    padding-top: 50px ;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}

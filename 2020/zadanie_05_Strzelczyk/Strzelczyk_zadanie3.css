@@ -1,0 +1,154 @@
+.Polska {
+    height: 500px;
+    width: 800px;
+    margin-left: 10px;
+}
+
+.Po1 {
+    background-color: #e9e8e7;
+    height: 250px;
+    float:top;
+}
+
+.Po2 {
+    background-color: #d4213d;
+    height: 250px;
+    float: top;
+}
+
+.Deutschland {
+    height: 500px;
+    width: 800px;
+    margin-left: 10px;
+}
+
+.De1 {
+    background-color: #000000;
+    height: 166px;
+    float: top;
+}
+
+.De2 {
+    background-color: #DA291C;
+    height: 166px;
+    float: top;
+}
+
+.De3 {
+    background-color: #FFCD00;
+    height: 166px;
+    float: top;
+}   
+
+.France {
+    height: 500px;
+    width: 800px;
+    margin-left: 10px;
+}
+
+.Fr1 {
+    background-color: #0055A4;
+    height: 500px;
+    width: 266px;
+    float: left;
+}  
+
+.Fr2 {
+    background-color: #FFFFFF ;
+    height: 500px;
+    width: 266px;
+    float: left;
+}
+
+.Fr3 {
+    background-color: #EF4135;
+    height: 500px;
+    width: 266px;
+    float: left;
+}
+   
+.Sverige {
+    height: 500px;
+    width: 800px;
+    
+}
+
+.Sv1 {
+    height: 500px;
+    width: 800px;
+    background-color: #004B87;
+    z-index: -1;
+    float: left;
+}
+
+.Sv2{
+    width: 100px;
+    height: 500px;
+    position: relative;
+    left: 250px;
+    bottom:500px;
+    float: left;
+    background-color: #FFCD00;
+    
+}
+
+.Sv3{
+    width: 800px;
+    height: 100px;
+    position: relative;
+    top: 200px;
+    background-color: #FFCD00;
+
+}
+
+.Norge{
+    height: 640px;
+    width: 800px;
+}
+    
+.No1 {
+    height: 500px;
+    width: 800px;
+    background-color: #BA0C2F;
+    z-index: -2;
+    float: left;
+    position: relative;
+    bottom: 421px;
+}
+    
+.No2 {
+    background-color: #FFFFFF;
+    height: 150px;
+    width: 800px;
+    position: relative;
+    top: 190px;
+    z-index: -1;
+}
+    
+.No3 {
+    background-color: #FFFFFF;
+    height: 500px;
+    width: 150px;
+    position: relative;
+    left: 240px;
+    bottom: 125px;
+    z-index: -1;
+}
+    
+.No4 {
+    background-color: #00205B;
+    height: 500px;
+    width: 80px;
+    position: relative;
+    left: 275px;
+    bottom: 921px;
+    float: left;
+}
+    
+.No5 {
+    background-color: #00205B;
+    height: 80px;
+    width: 800px;
+    position: relative;
+    bottom: 425px;    
+}

@@ -1,0 +1,20 @@
+.z6 {
+    border: 2px solid rgb(75, 75, 75);
+    background-color: grey;
+    padding: 70px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 300px;
+    margin-left: 750px;
+
+}
+
+.z6:hover {
+    background-color: rgb(102, 182, 86);
+    border: 2px solid rgb(211, 173, 3);
+    color: rgb(250, 120, 120);
+    cursor: pointer;
+   
+}

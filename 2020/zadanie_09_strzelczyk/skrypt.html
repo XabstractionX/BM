@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Strona Przeznaczona Fanom Karakali">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Olaf Strzelczyk">
+	<link rel="stylesheet" href="css/zadanie_09_strzelczyk.css">
+	<title>Skrypt</title>
+	<script>
+		function norma() {
+			num1 = document.getElementById("KG").value;
+			document.getElementById("result").innerHTML = num1 * 20;
+		}
+
+		function rabat() {
+			num1 = document.getElementById("KG").value;
+			document.getElementById("result").innerHTML = num1 * 20 * 40 / 100;
+		}
+	</script>
+</head>
+
+<body>
+	<div class="main">
+		<div class="LogoTop">
+			<p>Projekt Andromeda</p>
+		</div>
+		<div class="leftPan"></div>
+		<div class="content">
+			<br>
+			<h1>Kalkulator ceny za przejazd</h1><br>
+			<form>
+				Podaj ilość biletów a my przeliczymy ja na złotówki:
+				<br>
+				<input type="number" id="KG" min="1" max="200" value="1" />
+				<br><br>
+				<input type="button" onClick="norma()" Value="Licz normalnie" />
+				<input type="button" onClick="rabat()" Value="Licz z rabatem" />
+			</form>
+			<p>Wynik to : <br>
+				<span id="result"></span>zł
+			</p>
+			<p>
+				<span id="PLN"></span>
+			</p>
+		</div>
+		<div class="stopka">
+			<p class="m">Olaf Strzelczyk &nbsp;&copy;2021</p>
+		</div>
+	</div>
+</body>
+
+</html>

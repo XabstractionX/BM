@@ -1,0 +1,24 @@
+.z5 {
+    width:100px;
+    text-align: center;
+    border: 1px solid blue;
+    margin-left: 800px;
+    margin-top: 300px;
+
+}
+
+.z5 div:first-child {
+    margin: 5px;
+    background-color: rgb(5, 201, 5);
+    text-align: left
+}
+
+.z5 div:nth-child(4) {
+    background-color: yellow;
+}
+
+.z5 div:nth-child(5) {
+    padding: 20px;
+    text-align: right;
+    background-color: red;
+}

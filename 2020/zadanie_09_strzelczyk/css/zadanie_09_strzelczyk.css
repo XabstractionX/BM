@@ -1,0 +1,179 @@
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+body {
+    background-color: rgba(101, 103, 197, 0.534);
+    animation-name: appear;
+    animation-duration: 1s;
+}
+
+p{
+	text-align: center;
+}
+form{
+	text-align: center;
+}
+label {
+	margin: 5px;
+}
+input{
+	margin: 3px;
+}
+
+h1{
+	text-align: center;
+}
+*{
+	margin: 0 auto;
+}
+.main{
+	margin-top: 3px;
+	border: 1px solid black;
+	border-radius: 10px;
+    width: 1303px;
+	height: 650px;
+}
+.LogoTop{
+	width: 1300px;
+	height: 75px;
+	background-image: url("floppa.png");
+	background-repeat: repeat;
+	background-size: contain;
+	background-color: #b13bf5;
+    border-radius: 10px 10px 0 0;
+	background-position: center;
+}
+.LogoTop p{
+	text-align: center;
+	font-size: 65px;
+	color:white
+}
+.leftPan{
+	width: 300px;
+	height: 535px;
+	float: left;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-image: url("tenor.gif");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #b43939;
+	background-position: center;
+}
+.content{
+	width: 1000px;
+	height: 535px;
+	float: left;
+	border: 1px solid black;
+	border-right: 0px;
+}
+div.gallery {
+  margin: 33px;
+  border: 1px solid rgb(160, 32, 32);
+  border-radius: 3px 3px 5px 5px;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+.stopka{
+    width: 1300px;
+    height: 50px;
+    text-align: center;		
+}
+
+#margines{
+	margin: 10px;
+	color: black;
+}
+
+a:visited {
+	color: blue;
+}
+a:hover{
+	color: pink;
+}
+
+
+
+
+.menu {
+    background: #4955F5;
+    text-align: center;
+}
+.menu ul {
+    display: inline-flex;
+    list-style: none;
+    color: black;
+} 
+.menu ul li {
+    width: 230px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.kk, .menu ul li:hover {
+    background: rgb(98, 70, 201);
+    border-radius: 10px ;
+}
+
+.menu ul li:hover .kk-k {
+    display: block;
+    position: absolute;
+    background: slategray;
+    border-radius: 10px ;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu ul li:hover .kk-k ul {
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .kk-k ul li {
+    width: 150px;
+    padding: 10px;
+}
+.menu ul li:hover .kk-k ul li a:last-child {
+    border-bottom: none;
+}
+.menu ul li:hover .kk-k ul li a:hover {
+    color: red;
+}
+
+.kk-k {
+    display: none;
+}
+.kk-kk {
+    display: none;
+    
+}
+
+.kka:hover .kk-kk {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: slategray;
+    border-radius: 10px ;
+}
