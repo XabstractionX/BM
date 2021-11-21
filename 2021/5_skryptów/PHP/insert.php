@@ -21,7 +21,7 @@
   }
 
   $sql = "INSERT INTO MyGuests (`imie`, `nazwisko`, `email`)
-VALUES ('John', 'Doe', 'john@example.com')";
+  VALUES ('John', 'Doe', 'john@example.com')";
 
   if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
