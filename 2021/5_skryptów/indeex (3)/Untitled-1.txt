@@ -1,0 +1,6 @@
+1. create db
+2. create table 
+3. insert (frome)
+4. update (table + url)
+5. usuń rekord
+6. drop table
