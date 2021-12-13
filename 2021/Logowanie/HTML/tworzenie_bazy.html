@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baza</title>
+</head>
+
+<body>
+    <form action="/PHP/logowanie/PHP/Pliki_wykonywalne/create_db.php" method="post">
+        Dodaj bazę 
+        <input type="submit" value="dodaj">
+    </form>
+
+    <form action="/PHP/logowanie/PHP/Pliki_wykonywalne/create_table.php" method="post">
+        Utwórz tabele
+        <input type="submit" value="dodaj">
+        <!-- <br>
+        <label for="table">nazwa: </label>
+        <input type="text" name="table" id="ct">
+        <br> Wpisz nazwy kolumn
+        <br>
+        <label for="firstName">kolumna nr1: </label>
+        <input type="text" name="col1" id="firstName">
+        <br>
+        <label for="lastName">kolumna nr2: </label>
+        <input type="text" name="col2" id="lastName">
+        <br>
+        <label for="emailAddress">kolumna nr3: </label>
+        <input type="text" name="col3" id="emailAddress">
+        <br>
+        <input type="submit" value="dodaj"> -->
+    </form>
+
+    <form action="/PHP/logowanie/PHP/Pliki_wykonywalne/insert.php" method="post">
+        <br> Dodaj użytkownika
+        <br>
+        <label for="emailAddress">Nazwa: </label>
+        <input type="text" name="col1" id="emailAddress">
+        <br>
+        <label for="emailAddress">Hasło: </label>
+        <input type="text" name="col2" id="emailAddress">
+        <br>
+        <label for="emailAddress">Rola: </label>
+        <input type="text" name="col3" id="emailAddress">
+        <br>
+        <input type="submit" value="dodaj">
+        <br>
+    </form>
+    <br>
+
+    <!-- <div>Jeszcze w fazie testów</div>
+    <form action="PHP/Pliki_wykonywalne/update.php" method="post">
+        kliknij aby zaaktualizować bazę
+        <input type="submit" value="zaaktualizuj">
+    </form>
+    <br>
+    
+    <div>Jeszcze w fazie testów</div>
+    <form action="PHP/Pliki_wykonywalne/delete_data.php" method="post">
+        kliknij aby usunąć wiersz z tabeli
+        <input type="submit" value="usuń wiersz">
+    </form> -->
+
+    <!-- <form action="/PHP/logowanie/PHP/Pliki_wykonywalne/drop_table.php" method="post">
+        <br> kliknij aby usunąć tabele
+        <br>
+        <label for="emailAddress">Nazwa bazy gdzie jest tabel: </label>
+        <input type="text" name="nz" id="drop_db">
+        <label for="emailAddress">Wybierz tabele: </label>
+        <input type="text" name="drop" id="drop_db">
+        <input type="submit" value="usuń bazę">
+    </form> -->
+
+    <form action="/PHP/logowanie/PHP/Pliki_wykonywalne/drop_db.php" method="post">
+        Usuń bazę
+        <input type="submit" value="usuń">
+    </form>
+
+    <br><br>
+
+</body>
+
+</html>
