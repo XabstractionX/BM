@@ -1,0 +1,65 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+ul {
+    list-style-type: circle;
+    color: white;
+  }
+  li{
+    color: white;
+  }
+h1{
+    text-align: center;
+    color: white;
+
+}
+h4{
+    color: white;
+    margin-top: 1pc;
+}
+a{
+    border: dashed 1px sienna;
+    color: sienna;
+    background-color: tan;
+    padding: 40px;
+    line-height: 150px;
+}
+a:visited {
+    color: sienna;
+  }
+header{
+    width: auto;
+    height: 150px;
+    float: left;
+    background-color: sienna;
+}
+main{
+    margin: auto;
+    height: auto;
+    width: 801px;
+}
+
+be{
+    padding: 100px;
+    height: 295px;
+    width: 75.1%;
+    float: left;
+    background-color: tan;
+}
+footer{
+    width: auto;
+    height: 150px;
+    float: left;
+    background-color: sienna;
+}
+headerbox{
+    width: 100%;
+    height: 150px;
+    float: left;
+}
