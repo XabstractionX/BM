@@ -1,0 +1,2 @@
+JQuery
+  Przed wypakowaniem JQuery należy utworzyć pusty folder "kk" i do niego wsadzić JQuery 
